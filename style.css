@@ -17,13 +17,35 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-image: url("./images/background.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
     font-family: Kanit, sans-serif;
     margin: 0;
+}
+
+.containerForBlur:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(5px);
+    background: inherit;
+    z-index: -1;
+}
+
+.containerForBlur{
+    background:inherit;
+    z-index: 1;
+    width: 40%;
+    height: 50vh;
+    margin-top: 100px;
 }
 
 h1{
@@ -38,20 +60,21 @@ h1{
 }
 
 #countries-select{
-    width: 60vh;
+    width: 100%;
     margin-bottom: 60px;
     height: 50px;
     font-size: 22px;
     border: 1px solid var(--blue);
     color: var(--blue);
-    background-color: rgba(255,255,255,0);
     cursor: pointer;
     transition: all .2s linear;
+    background-color: var(--dark);
+    color: var(--blue);
 }
 
 #container{
-    width: 60vh;
-    height: 30vh;
+    width: 100%;
+    height: 70%;
     position: relative;
     cursor: pointer;
     perspective: 1000px;
@@ -110,30 +133,11 @@ img{
     padding: 10px 10px;
 }
 
-option{
-    background-color: var(--dark);
-    color: var(--blue);
-}
 
-select#countries-select{
-    background-color: var(--dark);
-    color: var(--blue);
-}
 
-.containerForBlur:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-    filter: blur(5px);
-    background: inherit;
-    z-index: -1;
-}
-
-.containerForBlur{
-    background:inherit;
-    z-index: 1;
-}
+@media only screen and (max-width: 600px) {
+    .containerForBlur{
+        width: 80%;
+        margin: 40px 10px;
+    }
+  }
