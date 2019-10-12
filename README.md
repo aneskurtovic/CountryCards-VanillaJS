@@ -12,4 +12,4 @@ API za prikupljanje informacija o državama: http://restcountries.eu/
 Link za aplikaciju: https://aneskurtovic.github.io/DrzavaInfo/
 
 ![GitHub Logo](https://i.imgur.com/tSTXTrJ.jpg)
-Format: ![Alt Text](url)
+
