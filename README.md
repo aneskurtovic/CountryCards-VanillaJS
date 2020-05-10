@@ -1,15 +1,14 @@
-# DrzavaInfo
-Jednostavna web aplikacija koja prikazuje osnovne informacije o svim državama putem kartica.
+# Country Cards
+Simple webpage for showing basic informations about all countries using cards.
 
-Tehnologije korištene:
-- HTML5
-- CSS3
-- JavaScript
-- AJAX
+Technologies used:
+-HTML5 
+-CSS3
+-Javascript
 
-API za prikupljanje informacija o državama: http://restcountries.eu/
+API used for country data: http://restcountries.eu/
 
-Link za aplikaciju: https://aneskurtovic.github.io/DrzavaInfo/
+LInk to Website: https://aneskurtovic.github.io/DrzavaInfo/
 
 ![GitHub Logo](https://i.imgur.com/tSTXTrJ.jpg)
 
