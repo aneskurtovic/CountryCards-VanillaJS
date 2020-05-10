@@ -2,9 +2,9 @@
 Simple webpage for showing basic informations about all countries using cards.
 
 Technologies used:
--HTML5 
--CSS3
--Javascript
+- HTML5 
+- CSS3
+- Javascript
 
 API used for country data: http://restcountries.eu/
 
