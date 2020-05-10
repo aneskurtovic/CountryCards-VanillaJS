@@ -8,7 +8,7 @@ Technologies used:
 
 API used for country data: http://restcountries.eu/
 
-LInk to Website: https://aneskurtovic.github.io/DrzavaInfo/
+LInk to Country Cards website: https://aneskurtovic.github.io/DrzavaInfo/
 
-![GitHub Logo](https://i.imgur.com/tSTXTrJ.jpg)
+![CountriesWallpaper](https://i.imgur.com/tSTXTrJ.jpg)
 
