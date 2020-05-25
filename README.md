@@ -5,10 +5,13 @@ Technologies used:
 - HTML5 
 - CSS3
 - Javascript
+- Ajax
 
 API used for country data: http://restcountries.eu/
 
-LInk to Country Cards website: https://aneskurtovic.github.io/DrzavaInfo/
+Link to Country Cards website: https://country-cards-vanillajs.now.sh/
+
+Hosted for free thanks to the Vercel!
 
 ![CountriesWallpaper](https://i.imgur.com/tSTXTrJ.jpg)
 
