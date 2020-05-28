@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Turret+Road:400,800&display=swap');
-
 * {
     box-sizing: border-box;
 }
-
 :root {
     --green: #9fea63;
     --blue: #3ba9f4;
     --dark: #282c34;
     --neka: #525252;
 }
-
 body{
     display: flex;
     align-items: center;
@@ -26,7 +23,6 @@ body{
     font-family: Kanit, sans-serif;
     margin: 0;
 }
-
 .containerForBlur:before {
     content: '';
     position: absolute;
@@ -39,7 +35,6 @@ body{
     background: inherit;
     z-index: -1;
 }
-
 .containerForBlur{
     background:inherit;
     z-index: 1;
@@ -47,7 +42,6 @@ body{
     height: 50vh;
     margin-top: 100px;
 }
-
 h1{
     font-family: 'Turret Road', cursive;
     font-weight: 800;
@@ -56,9 +50,7 @@ h1{
     color: var(--dark);
     text-align: center;
     margin-bottom: 50px;
-
 }
-
 #countries-select{
     width: 100%;
     margin-bottom: 60px;
@@ -70,8 +62,8 @@ h1{
     transition: all .2s linear;
     background-color: var(--dark);
     color: var(--blue);
+    padding-left: 8px;
 }
-
 #container{
     width: 100%;
     height: 70%;
@@ -79,7 +71,6 @@ h1{
     cursor: pointer;
     perspective: 1000px;
 }
-
 #content:not(:empty){
     display: block;
     position: relative;
@@ -90,18 +81,15 @@ h1{
     transform-style: preserve-3d;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.7);
 }
-
 #container:hover #content{
     transform: rotateY(180deg);
 }
-
 img{
     display: block;
     height: 100%;
     width: 100%;
     object-position: 100% 100%;
 }
-
 .card{
     position: absolute;
     width: 100%;
@@ -115,12 +103,10 @@ img{
     line-height: 20px;
     border: 1px solid var(--blue);
 }
-
 .card.front{
     background-color: rgba(0,0,0,0.5);
     color: #fff;
 }
-
 .card.back{
     transform: rotateY(180deg);
     background-color: var(--dark);
@@ -128,13 +114,9 @@ img{
     padding: 15px 0;
     color: var(--blue);
 }
-
 .card.padding{
     padding: 10px 10px;
 }
-
-
-
 @media only screen and (max-width: 600px) {
     .containerForBlur{
         width: 80%;
